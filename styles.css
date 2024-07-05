@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffe6e6;
+    background-image: url('https://www.transparenttextures.com/patterns/hearts.png');
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff4d4d;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+.hidden {
+    display: none;
+}
+
+#happy-teddy {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTdxeGoyN2xxaThzYW0xYmF3aWF4dnd3bzdoNnBsNjRsY3J6YzgxOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DtBHcARLqNAvVnYsyD/giphy.gif') no-repeat center center;
+    background-size: cover;
+    display: none;
+}
